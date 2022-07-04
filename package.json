@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx webpack serve",
+    "start": "webpack serve",
     "dev": "webpack-dev-server"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass-loader": "^13.0.2",
